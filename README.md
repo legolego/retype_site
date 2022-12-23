@@ -1,1 +1,1 @@
-Retype site for github pages
+Retype site for github pages, with actual site at [https://legolego.github.io/](https://legolego.github.io/)
