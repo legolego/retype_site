@@ -1,4 +1,10 @@
-# Page title here
+---
+label: Contact
+layout: default
+order: 90
+---
+
+# Contact
 
 This is a paragraph.
 
