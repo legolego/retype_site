@@ -1,6 +1,7 @@
 input: ./retype_src
 output: C:/gitProjects/legolego.github.io
 url: https://legolego.github.io/
+cname: false
 branding:
   logo: static/lego.png
   title: Oleg N
