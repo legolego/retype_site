@@ -16,11 +16,15 @@ This was a project with the goal of doing an analysis on the combination of at l
 
 There is a Streamlit [version](https://mads-698-capstone-next-big-thing.streamlit.app) with all code [here](https://github.com/legolego/MADS_698_Capstone).
 
+---
+
 ## Milestone II
 [![Dendrogram of coin clusters based on price movement](static/crypto_clusters.png)](https://mads-695-milestone2-crypto-prediction.streamlit.app)
 There were two tasks in this project, both a supervised and unsupervised learing analysis. We decided to try to do next-day price prediction for the supervised learning part because it was a simpler goal for us to understand. For the unsupervised learning part of the project, we wanted to see if we could find families of coins whose prices tend to move together. This was accomplished by finding similar price movement through dynamic time warping and clustering, with the result being quite reasonable.
 
 There is a Streamlit [version](https://mads-695-milestone2-crypto-prediction.streamlit.app) with all code [here](https://github.com/legolego/MADS695).
+
+---
 
 ## Milestone I
 [![Rain effects of taxi rides](static/taxis_dnd.png)](https://mads-592-milestone1-taxi-weather.streamlit.app)
@@ -28,6 +32,7 @@ This was a project with the goal of doing an analysis on the combination of at l
 
 There is a Streamlit [version](https://mads-592-milestone1-taxi-weather.streamlit.app) with all code [here](https://github.com/legolego/milestone_1_streamlit).
 
+---
 
 ## Test Deepnote to Streamlit
 [![Deepnote to Streamlit](static/DeepnoteStreamlit.png)](https://deepnote-to-stlit-comm-cloud.streamlit.app)

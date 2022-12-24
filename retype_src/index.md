@@ -16,6 +16,37 @@ This is a slightly curated site for my projects that should be easier to navigat
 
 More about my work experience can be found on [LinkedIn](https://www.linkedin.com/in/olegnikolsky/)
 
+## Areas of Interest :bike:
+
+||| :thought_balloon: NLP
+
+Natural Language Processing, or extracting data from text with something like BERT vectors.
+
+||| :hammer_and_wrench: Model building
+
+Data wrangling, feature engineering, and tuning/testing to build a reliable model.
+
+||| :bar_chart: Visualizations
+
+Creating clear charts that enhance understanding.
+
+|||
+
+
+||| :spider_web: Graph Databases
+
+I've created a Neo4j database with over 1 million patents and claims. 
+
+||| :desktop_computer: Continuous Integration/Development
+
+I have experience with Jenkins, Github, and Microsoft Team Foundation Server
+
+||| :alembic: Invention
+
+Brainstorming new ideas and creating prototypes
+
+|||
+
 ## Patents :toolbox:
 
 Some patents I helped create:
