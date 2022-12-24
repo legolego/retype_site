@@ -1,10 +1,10 @@
 ---
-label: Personal Projects
+label: ":computer: Personal Projects"
 layout: default
 order: 99
 ---
 
-# Personal Projects
+# Personal Projects :computer:
 
 These are links/descriptions to personal projects.
 

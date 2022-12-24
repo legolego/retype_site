@@ -1,10 +1,10 @@
 ---
-label: University Projects
+label: ":mortar_board: University Projects"
 layout: default
 order: 100
 ---
 
-# University Projects
+# University Projects :mortar_board:
 
 These are projects completed as part of the [University of Michigan Masters of Applied Data Science (MADS)](https://www.si.umich.edu/programs/master-applied-data-science) program.
 
