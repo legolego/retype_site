@@ -37,9 +37,9 @@ Creating clear charts that enhance understanding.
 
 I've created a Neo4j database with over 1 million patents and claims. 
 
-||| :desktop_computer: Continuous Integration/Development
+||| :desktop_computer: CI/CD
 
-I have experience with Jenkins, Github, and Microsoft Team Foundation Server
+Continuous Integration/Continuous Development experience with Jenkins, Github, and Microsoft Team Foundation Server
 
 ||| :alembic: Invention
 
