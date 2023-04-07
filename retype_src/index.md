@@ -59,4 +59,3 @@ And other patent applications I've been a part of:
 [WO2017131728](https://patents.google.com/patent/WO2017131728A1/en) - Cursor movement based on context<br>
 [US20170336881A1 ](https://patents.google.com/patent/US20170336881A1/en) - Discrete cursor movement based on touch input region<br>
 [US20170220223A1](https://patents.google.com/patent/US20170220223A1/en) - Generate Touch Input Signature for Discrete Cursor Movement
-
