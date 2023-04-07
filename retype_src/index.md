@@ -16,7 +16,7 @@ This is a slightly curated site for my projects that should be easier to navigat
 
 More about my work experience can be found on [LinkedIn](https://www.linkedin.com/in/olegnikolsky/)
 
-## Areas of Interest :bike:
+## :boat: Areas of Interest :bike:
 
 ||| :thought_balloon: NLP
 

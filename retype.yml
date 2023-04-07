@@ -6,6 +6,11 @@ branding:
   logo: static/lego.png
   title: Oleg N
   label: Projects
+snippets:      # Custom code snippets configuration.
+               # See: https://retype.com/components/code-snippet
+  lineNumbers: # A list of language strings to enable line numbering on.
+    - python
+    - c++
 links:
   #text: Getting Started
   #link: https://retype.com/guides/getting-started/
