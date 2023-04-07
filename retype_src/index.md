@@ -10,7 +10,7 @@ order: 105
 
 I am a data scientist with a recent Masters degree from the University of Michigan and inventive mindset who enjoys researching unfamiliar topics to help others discover and understand something new. My ability to recognize needed enhancements in user experience and paying attention to details brings an additional valuable skillset.
 
-For my current day jobs, I work as a developer for DXC Technologies and as an Adjunct Lecturer for the University of Michigan, assisting with the Masters of Applied Data Science program I graduated from. I really enjoy helping students understand complex topics.
+For my current day jobs, I work as a developer for DXC Technologies and as a Lecturer for the University of Michigan, assisting with the Masters of Applied Data Science program I graduated from. I really enjoy helping students understand complex topics.
 
 This is a slightly curated site for my projects that should be easier to navigate than my github [repository](https://github.com/legolego).
 
