@@ -6,7 +6,14 @@ order: 100
 
 # University Projects :mortar_board:
 
-These are projects completed as part of the [University of Michigan Masters of Applied Data Science (MADS)](https://www.si.umich.edu/programs/master-applied-data-science) program.
+These are projects completed while studying in the [University of Michigan Masters of Applied Data Science (MADS)](https://www.si.umich.edu/programs/master-applied-data-science) program.
+
+
+---
+## Detroit Digital Inclusion Project
+[![](static/DDIP.png)](https://public.tableau.com/app/profile/sean.meyer1241/viz/DetroitDigitalInclusionProject/DigitalAccessPriority)
+[Michigan Institute for Data Science (MIDAS)](https://midas.umich.edu/detroit-digital-inclusion/) project where we were asked to study Detroit demographic data to find a way to prioritize which areas of Detroit were in most need of having internet. A [Tableau Dashboard](https://public.tableau.com/app/profile/sean.meyer1241/viz/DetroitDigitalInclusionProject/DigitalAccessPriority) was created to allow the user to weigh different characteristics in order to see how prioritization would change.
+
 
 
 ---

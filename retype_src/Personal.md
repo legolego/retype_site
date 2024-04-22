@@ -1,12 +1,24 @@
 ---
 label: ":computer: Personal Projects"
 layout: default
-order: 99
+order: 104
 ---
 
 # Personal Projects :computer:
 
 These are links/descriptions to personal projects.
+
+---
+
+## Gut-Emotions for MHacks
+[![](static/SquiggleSearch.png)](https://gut-emotions-mhacks.streamlit.app)
+This is a [Streamlit app](https://gut-emotions-mhacks.streamlit.app) we made to compete in [MHacks 16](https://safe-banon-80d.notion.site/Hacker-Guide-079b584c6deb446e88c53712dc0f9ecb) in Ann Arbor. The goal was to use Google Gemini 1.5 and do something with generative AI, and Gemini's 1 million token context window. We loaded books from Gutenberg and had Gemini analyze them and return a series of emotions, as well as a ranking of that emotion. The next step was to draw a squiggle as search input to represent the emotional arc you would like to see in a book, and then return those books that are closest. We wanted Gemini to interpret the drawn squiggle, but it struggled, so we fell back on the PIL library. Source code is in [GitHub](https://github.com/legolego/GutEmotions)
+
+---
+
+## Patent search engine in Neo4j
+![Neo4j Patent Schema](static/neo4j_pat_schema.png)
+This is the schema in a Neo4j graph database we created in order to make a search engine. ~one million patents were loaded locally from [USPTO bulk data files](https://developer.uspto.gov/product/patent-grant-full-text-dataxml).
 
 ---
 
@@ -31,9 +43,9 @@ This was my first real attempt at using Jupyter notebooks, and I decided to see 
 ## Attempts at Advent of Code
 ```python
 sum = 0
-for group in Lines01[:]:    
-    group = group.split('\n')   
-    sets = [set(x) for x in group]    
+for group in Lines01[:]:
+    group = group.split('\n')
+    sets = [set(x) for x in group]
     #print(set.intersection(*sets))
     sum += len(set.intersection(*sets))
 ```

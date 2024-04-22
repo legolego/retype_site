@@ -8,11 +8,11 @@ order: 105
 
 ![](static/AboutHeader.png)
 
-I am a data scientist with a recent Masters degree from the University of Michigan and inventive mindset who enjoys researching unfamiliar topics to help others discover and understand something new. My ability to recognize needed enhancements in user experience and paying attention to details brings an additional valuable skillset.
+I am a data scientist with a recent Masters degree from the University of Michigan and inventive mindset who enjoys researching unfamiliar topics to help others discover and understand something new. My ability to recognize needed enhancements in user experience and paying attention to details brings an additional valuable skill set.
 
 For my current day jobs, I work as a developer for DXC Technologies and as a Lecturer for the University of Michigan, assisting with the Masters of Applied Data Science program I graduated from. I really enjoy helping students understand complex topics.
 
-This is a slightly curated site for my projects that should be easier to navigate than my github [repository](https://github.com/legolego).
+This is a slightly curated site for my projects that should be easier to navigate than my GitHub [repository](https://github.com/legolego).
 
 More about my work experience can be found on [LinkedIn](https://www.linkedin.com/in/olegnikolsky/)
 
@@ -39,7 +39,7 @@ I've created a Neo4j database with over 1 million patents and claims.
 
 ||| :desktop_computer: CI/CD
 
-Continuous Integration/Continuous Development experience with Jenkins, Github, and Microsoft Team Foundation Server
+Continuous Integration/Continuous Development experience with Jenkins, GitHub, and Microsoft Team Foundation/DevOps Server
 
 ||| :alembic: Invention
 
