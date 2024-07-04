@@ -1,6 +1,6 @@
 {
   "version": "3.5.0",
-  "created": "2023-10-31T02:33:26Z",
+  "created": "2024-04-22T17:21:20Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -78,7 +78,16 @@
       "path": "static\\lego.png"
     },
     {
+      "path": "static\\mhacks_header.png"
+    },
+    {
+      "path": "static\\neo4j_pat_schema.png"
+    },
+    {
       "path": "static\\next_big_thing.png"
+    },
+    {
+      "path": "static\\squigglesearch.png"
     },
     {
       "path": "static\\taxis_dnd.png"
