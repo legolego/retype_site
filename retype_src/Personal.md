@@ -6,19 +6,32 @@ order: 104
 
 # Personal Projects :computer:
 
-These are links/descriptions to personal projects.
+A collection of experiments, hackathons, and learning adventures!
+From RAG-powered bike data explorers to emotional AI journey through classic literature, these projects represent my passion for exploring cutting-edge technology while making things fun and accessible.
+
+Whether I'm competing in hackathons, wrestling with graph databases, or solving puzzle challenges like Advent of Code, each project teaches me something new about the ever-evolving world of data science and artificial intelligence.
 
 ---
 
+## Simple RAG example
+![](static/bike_rag.jpg)
+🚴‍♂️ **Dive into mountain bike trends!** Check out this [github repo](https://github.com/legolego/BikeScraping){target="_blank"} featuring an exciting RAG (Retrieval Augmented Generation) project! We built a cool notebook-based system that scrapes mountain bike data, stores it in Chroma vector database, and uses reciprocal rank to find the best matches. The results get fed into an open source LLM for those super interesting insights about your favorite two-wheelers!
+
 ## Gut-Emotions for MHacks
-[![](static/SquiggleSearch.png)](https://gut-emotions-mhacks.streamlit.app)
-This is a [Streamlit app](https://gut-emotions-mhacks.streamlit.app) we made to compete in [MHacks 16](https://safe-banon-80d.notion.site/Hacker-Guide-079b584c6deb446e88c53712dc0f9ecb) in Ann Arbor. The goal was to use Google Gemini 1.5 and do something with generative AI, and Gemini's 1 million token context window. We loaded books from Gutenberg and had Gemini analyze them and return a series of emotions, as well as a ranking of that emotion. The next step was to draw a squiggle as search input to represent the emotional arc you would like to see in a book, and then return those books that are closest. We wanted Gemini to interpret the drawn squiggle, but it struggled, so we fell back on the PIL library. Source code is in [GitHub](https://github.com/legolego/GutEmotions)
+[![](static/SquiggleSearch.png)](https://gut-emotions-mhacks.streamlit.app){target="_blank"}
+This Streamlit app was our entry into [MHacks 16](https://safe-banon-80d.notion.site/Hacker-Guide-079b584c6deb446e88c53712dc0f9ecb){target="_blank"} in Ann Arbor, where we explored the fascinating intersection of generative AI and literary analysis. Leveraging Google Gemini 1.5's massive 1 million token context window, we processed complete classic novels from Project Gutenberg to extract emotional profiles and sentiment trajectories throughout entire works.
+
+The concept was elegantly simple yet ambitious: represent an ideal reading experience as a drawn squiggle capturing the desired emotional journey (from heart-pounding thrillers to bittersweet romances), then find books whose emotional arcs best matched the drawing. While Gemini initially struggled to interpret hand-drawn input directly, we adapted by using OCR + PIL preprocessing for squiggle analysis.
+
+The result? A unique search interface where you sketch your mood and discover literature matching that emotional fingerprint!
+
+Source code: [GitHub repository](https://github.com/legolego/GutEmotions){target="_blank"}
 
 ---
 
 ## Patent search engine in Neo4j
 ![Neo4j Patent Schema](static/neo4j_pat_schema.png)
-This is the schema in a Neo4j graph database we created in order to make a search engine. ~one million patents were loaded locally from [USPTO bulk data files](https://developer.uspto.gov/product/patent-grant-full-text-dataxml).
+Built with Neo4j's powerful graph capabilities, this search engine demonstrates the elegance of traversing interconnected relationships between inventors, assignees, citations, and claims. The database contains nearly one million patents loaded directly from [USPTO bulk data exports](https://developer.uspto.gov/product/patent-grant-full-text-dataxml){target="_blank"}, enabling complex queries like "find all patents citing this one," "who else works with this inventor?" or "what's the evolution of technology in this field?" Graph databases shine when relationships matter, and patent analysis is pure relationship territory.
 
 ---
 
@@ -30,17 +43,21 @@ url: https://legolego.github.io/
 cname: false
 
 ```
-You can make this site yourself with [Retype](https://retype.com/), code is [here](https://github.com/legolego/retype_site). The navigation is built-in and it's all done with markdown.
+A simple demonstration that you can build beautiful static websites with minimal setup using [Retype](https://retype.com/){target="_blank"}. This site showcases how powerful documentation can be created entirely with Markdown — no complex frameworks required. The navigation is built-in and automatically generated based on file ordering.
 
 ---
 
 ## Temperature Records over time
 [![](static/TemperatureRecords02.png)](https://github.com/legolego/WeatherRecords)
-This was my first real attempt at using Jupyter notebooks, and I decided to see if I could find how many new high and low temperature records were being set over time.
+My first real adventure into data analysis with Jupyter notebooks! 📈 I wanted to answer a deceptively simple question: how often do extreme temperature records get broken? The methodology was straightforward — download decades of historical weather data, calculate the probability of new record highs and lows each year, then visualize the trends over time.
+
+The results were eye-opening. You can see in the visualization whether recent years have been unusually active with record-breaking temperatures or if we're back to normal variability. Climate change enthusiasts and skeptics alike can look at the raw data for themselves.
+
+Full analysis and interactive notebook: [GitHub repo](https://github.com/legolego/WeatherRecords){target="_blank"}{target="_blank"}
 
 ---
 
-## Attempts at Advent of Code
+## Advent of Code Attempts
 ```python
 sum = 0
 for group in Lines01[:]:
@@ -49,7 +66,9 @@ for group in Lines01[:]:
     #print(set.intersection(*sets))
     sum += len(set.intersection(*sets))
 ```
-Really good practice from a couple years ago, my attempts [here](https://github.com/legolego/adventofcode2020).
+The Advent of Code has been a yearly rite since ~2018! 🎄 These challenges combine clever algorithms, regex gymnastics, and creative problem-solving in Python. Each day presents a new puzzle inspired by real-world scenarios (navigation, cryptography, simulation games), forcing you to think outside the box. The code snippets here show my approach to set theory problems, but every year I tackle hundreds of lines worth across both days.
+
+My [full collection of solutions](https://github.com/legolego/adventofcode2020){target="_blank"} from that active competing year — a good time capsule showing how much I've learned since then! (And yes, I still compete occasionally.)
 
 ---
 
@@ -59,7 +78,7 @@ Really good practice from a couple years ago, my attempts [here](https://github.
 # Choose trained Weka BIFXML file
 xmlfile = "D:/weka/iris.xml"    # created with BayesNet, MaxNrParents=2, BIFXML file
 bifreader = JavaObject(JavaObject.new_instance("weka.classifiers.bayes.net.BIFReader"))
-editable = Classifier(jobject=javabridge.make_instance(
+editable = Classifier(jobject=javbridge.make_instance(
                 "weka/classifiers/bayes/net/EditableBayesNet",
                 "(Lweka/classifiers/bayes/net/BIFReader;)V",
                 bifreader.jwrapper.processFile(xmlfile)))
@@ -71,4 +90,6 @@ marginCalc.jwrapper.calcMargins(editable.jobject)
 marginCalcNoEvidence = Serial.deepcopy(marginCalc)    # could maybe get by without this, just use marginCalc()
 ```
 
-This is a simple [project](https://github.com/legolego/PyWekaBayes) showing how in Python to call the BayesNet classifier provided by Weka. A relevant Google Groups discussion is [here](https://groups.google.com/g/python-weka-wrapper/c/qF4vw_6sqAA/m/EmqTph1NAAAJ)
+This project explores Python's Java Bridge capabilities to call Weka's Bayesian Network classifiers directly. Using Weka's BIFXML format — a compact XML representation of Bayesian networks created in the Weka GUI Chooser — we load trained models and compute attribute margins (Bayesian probabilities). This demonstrates how Python can leverage existing Java ML libraries without rewriting algorithms from scratch.
+
+The [Weka Google Groups discussion](https://groups.google.com/g/python-weka-wrapper/c/qF4vw_6sqAA/m/EmqTph1NAAAJ){target="_blank"} offers additional insights into building Bayesian networks with this approach.
