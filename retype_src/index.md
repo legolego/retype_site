@@ -8,9 +8,9 @@ order: 105
 
 ![](static/AboutHeader.png)
 
-I am a data scientist with a recent Masters degree from the University of Michigan and inventive mindset who enjoys researching unfamiliar topics to help others discover and understand something new. My ability to recognize needed enhancements in user experience and paying attention to details brings an additional valuable skill set.
+I'm a data scientist turned educator, bridging the gap between complex algorithms and real-world applications. By day, I architect solutions at DXC Technologies; by day, I mentor students through the rigors of the MADS program at Michigan.
 
-For my current day-jobs, I work as a developer for DXC Technologies and as a Lecturer for the University of Michigan, assisting with the Masters of Applied Data Science program I graduated from. I really enjoy helping students understand complex topics.
+My passion lies in taking unfamiliar concepts—whether it's graph databases with millions of nodes or the emotional arcs hidden in classic literature—and making them accessible to others.
 
 This is a slightly curated site for my projects that should be easier to navigate than my GitHub [repository](https://github.com/legolego){target="_blank"}.
 
