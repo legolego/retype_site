@@ -43,17 +43,17 @@ url: https://legolego.github.io/
 cname: false
 
 ```
-A simple demonstration that you can build beautiful static websites with minimal setup using [Retype](https://retype.com/){target="_blank"}. This site showcases how powerful documentation can be created entirely with Markdown — no complex frameworks required. The navigation is built-in and automatically generated based on file ordering.
+A simple demonstration that you can build beautiful static websites with minimal setup using [Retype](https://retype.com/){target="_blank"}. This site showcases how powerful documentation can be created entirely with Markdown, no complex frameworks required. The navigation is built-in and automatically generated based on file ordering.
 
 ---
 
 ## Temperature Records over time
 [![](static/TemperatureRecords02.png)](https://github.com/legolego/WeatherRecords)
-My first real adventure into data analysis with Jupyter notebooks! 📈 I wanted to answer a deceptively simple question: how often do extreme temperature records get broken? The methodology was straightforward — download decades of historical weather data, calculate the probability of new record highs and lows each year, then visualize the trends over time.
+My first real adventure into data analysis with Jupyter notebooks! 📈 I wanted to answer a deceptively simple question: how often do extreme temperature records get broken? The methodology was straightforward: download decades of historical weather data, calculate the probability of new record highs and lows each year, then visualize the trends over time.
 
 The results were eye-opening. You can see in the visualization whether recent years have been unusually active with record-breaking temperatures or if we're back to normal variability. Climate change enthusiasts and skeptics alike can look at the raw data for themselves.
 
-Full analysis and interactive notebook: [GitHub repo](https://github.com/legolego/WeatherRecords){target="_blank"}{target="_blank"}
+Full analysis and interactive notebook: [GitHub repo](https://github.com/legolego/WeatherRecords){target="_blank"}
 
 ---
 
@@ -68,7 +68,7 @@ for group in Lines01[:]:
 ```
 The Advent of Code has been a yearly rite since ~2018! 🎄 These challenges combine clever algorithms, regex gymnastics, and creative problem-solving in Python. Each day presents a new puzzle inspired by real-world scenarios (navigation, cryptography, simulation games), forcing you to think outside the box. The code snippets here show my approach to set theory problems, but every year I tackle hundreds of lines worth across both days.
 
-My [full collection of solutions](https://github.com/legolego/adventofcode2020){target="_blank"} from that active competing year — a good time capsule showing how much I've learned since then! (And yes, I still compete occasionally.)
+My [full collection of solutions](https://github.com/legolego/adventofcode2020){target="_blank"} from that active competing year - a good time capsule showing how much I've learned since then! (And yes, I still compete occasionally.)
 
 ---
 
@@ -76,7 +76,7 @@ My [full collection of solutions](https://github.com/legolego/adventofcode2020){
 
 ```python
 # Choose trained Weka BIFXML file
-xmlfile = "D:/weka/iris.xml"    # created with BayesNet, MaxNrParents=2, BIFXML file
+xmlfile = "D:/weka/iris.bif"    # created with BayesNet, MaxNrParents=2, BIFXML file
 bifreader = JavaObject(JavaObject.new_instance("weka.classifiers.bayes.net.BIFReader"))
 editable = Classifier(jobject=javbridge.make_instance(
                 "weka/classifiers/bayes/net/EditableBayesNet",
@@ -90,6 +90,6 @@ marginCalc.jwrapper.calcMargins(editable.jobject)
 marginCalcNoEvidence = Serial.deepcopy(marginCalc)    # could maybe get by without this, just use marginCalc()
 ```
 
-This project explores Python's Java Bridge capabilities to call Weka's Bayesian Network classifiers directly. Using Weka's BIFXML format — a compact XML representation of Bayesian networks created in the Weka GUI Chooser — we load trained models and compute attribute margins (Bayesian probabilities). This demonstrates how Python can leverage existing Java ML libraries without rewriting algorithms from scratch.
+This project explores Python's Java Bridge capabilities to call Weka's Bayesian Network classifiers directly. Using Weka's BIFXML format - a compact XML representation of Bayesian networks created in the Weka GUI Chooser - we load trained models and compute attribute margins (Bayesian probabilities). This demonstrates how Python can leverage existing Java ML libraries without rewriting algorithms from scratch.
 
 The [Weka Google Groups discussion](https://groups.google.com/g/python-weka-wrapper/c/qF4vw_6sqAA/m/EmqTph1NAAAJ){target="_blank"} offers additional insights into building Bayesian networks with this approach.

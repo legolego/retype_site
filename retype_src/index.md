@@ -10,7 +10,7 @@ order: 105
 
 I'm a data scientist turned educator, bridging the gap between complex algorithms and real-world applications. By day, I architect solutions at DXC Technologies; by day, I mentor students through the rigors of the MADS program at Michigan.
 
-My passion lies in taking unfamiliar concepts—whether it's graph databases with millions of nodes or the emotional arcs hidden in classic literature—and making them accessible to others.
+My passion lies in taking unfamiliar concepts - whether it's graph databases with millions of nodes or the emotional arcs hidden in classic literature - and making them accessible to others.
 
 This is a slightly curated site for my projects that should be easier to navigate than my GitHub [repository](https://github.com/legolego){target="_blank"}.
 
