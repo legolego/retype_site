@@ -43,7 +43,7 @@ url: https://legolego.github.io/
 cname: false
 
 ```
-A simple demonstration that you can build beautiful static websites with minimal setup using [Retype](https://retype.com/){target="_blank"}. This site showcases how powerful documentation can be created entirely with Markdown, no complex frameworks required. The navigation is built-in and automatically generated based on file ordering.
+A simple demonstration that you can build beautiful static websites with minimal setup using [Retype](https://retype.com/){target="_blank"}. This site showcases how powerful documentation can be created entirely with Markdown - no complex frameworks required. The navigation is built-in and automatically generated based on file ordering.
 
 ---
 
