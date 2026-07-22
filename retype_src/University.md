@@ -18,12 +18,11 @@ This MIDAS initiative tackled a critical urban challenge: mapping digital access
 
 
 ---
-## Capstone: Weather & Urban Mobility Analysis
+## Capstone: Finding the Next Big Thing
 [![](static/next_big_thing.png)](https://mads-698-capstone-next-big-thing.streamlit.app){target="_blank"}
-Our final project combined NYC taxi trip data with weather information to quantify how rain impacts urban mobility patterns. Using difference-in-differences methodology, we isolated the causal effect of precipitation on ridership and controlled for day-of-week effects and other confounding variables.
+Our final project was a pipeline with the goal of finding the Next Big Thing. Freeform text like "Squid Game" was the input, resulting in finding the next new thing like "Squid Game" that was being talked about on Reddit. Wikipedia and Reddit APIs were used, along with the construction of a Conditional Random Field model to find unseen things, then a Top 10 list was returned.
 
-The analysis reveals fascinating behavioral insights: New Yorkers reduce trips significantly in rain but still travel more than usual compared to dry conditions, showing weather-dependent baseline demand shifts. The [Streamlit app](https://mads-698-capstone-next-big-thing.streamlit.app){target="_blank"} lets you toggle variables and see how different weather conditions reshape the city's transportation ecosystem. Full code: [GitHub repository](https://github.com/legolego/MADS_698_Capstone){target="_blank"}.
-
+Full interactive app and code: [Streamlit demo](https://mads-698-capstone-next-big-thing.streamlit.app){target="_blank"} | [GitHub repo](https://github.com/legolego/MADS_698_Capstone){target="_blank"}.
 ---
 
 ## Milestone II: Cryptocurrency Analysis
@@ -32,9 +31,9 @@ Course 695 challenged us to combine supervised and unsupervised learning approac
 
 **Supervised**: Next-day price prediction using historical patterns (a practical, if ambitious, forecasting exercise).
 
-**Unsupervised**: Discovering "crypto families" - groups of coins whose prices move together. Using dynamic time warping to measure similarity in price trajectories despite different absolute values, then clustering coins into communities with shared behavior.
+**Unsupervised**: Discovering "crypto families" - groups of coins whose prices move together. Using dynamic time warping to measure similarity in z-scored price trajectories despite different absolute values, then clustering coins into communities with shared behavior.
 
-The resulting dendrogram reveals interesting market microstructure: smaller altcoins often cluster by ecosystem or use case, while large caps like BTC/ETH form their own clusters. Full interactive app and code: [Streamlit demo](https://mads-695-milestone2-crypto-prediction.streamlit.app){target="_blank"} | [GitHub repo](https://github.com/legolego/MADS695){target="_blank"}.
+The resulting dendrogram reveals interesting market microstructure: smaller altcoins often cluster by ecosystem or use case, while large caps like BTC/ETH form their own independent clusters apart from other large coins. Full interactive app and code: [Streamlit demo](https://mads-695-milestone2-crypto-prediction.streamlit.app){target="_blank"} | [GitHub repo](https://github.com/legolego/MADS695){target="_blank"}.
 
 ---
 
@@ -42,7 +41,7 @@ The resulting dendrogram reveals interesting market microstructure: smaller altc
 [![Rain effects of taxi rides](static/taxis_dnd.png)](https://mads-592-milestone1-taxi-weather.streamlit.app){target="_blank"}
 Course 592 introduced us to difference-in-differences (DiD) - a causal inference workhorse in economics and social science. My first DiD application measured how weather affects NYC urban mobility.
 
-By comparing pre/post rain periods while controlling for time trends, the analysis isolates the causal impact of precipitation on taxi demand. The results show that New Yorkers adapt their travel behavior to weather conditions: fewer trips overall, but still significant activity compared to a hypothetical dry-day baseline.
+By comparing pre/post rain periods while controlling for time trends, the analysis isolates the causal impact of precipitation on taxi demand. The results show that New Yorkers adapt their travel behavior to weather conditions by taking more taxi rides when there is precipitation compared to a hypothetical dry-day baseline.
 
 Explore the visualization to see how different weather intensities shift mobility patterns. Complete notebook and Streamlit app: [GitHub repo](https://github.com/legolego/milestone_1_streamlit){target="_blank"} | [Interactive demo](https://mads-592-milestone1-taxi-weather.streamlit.app){target="_blank"}.
 

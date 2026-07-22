@@ -8,7 +8,7 @@ order: 105
 
 ![](static/AboutHeader.png)
 
-I'm a data scientist turned educator, bridging the gap between complex algorithms and real-world applications. By day, I architect solutions at DXC Technologies; by day, I mentor students through the rigors of the MADS program at Michigan.
+I'm a data scientist turned educator, bridging the gap between complex algorithms and real-world applications. By day, I architect solutions at DXC Technologies; by night, I mentor students through the rigors of the MADS program at the University of Michigan.
 
 My passion lies in taking unfamiliar concepts - whether it's graph databases with millions of nodes or the emotional arcs hidden in classic literature - and making them accessible to others.
 
